@@ -1,5 +1,4 @@
-FROM node:12-alpine
-LABEL NAME="google-analytics-connector"
+FROM node:10-alpine
 
 RUN apk --no-cache add \
     python \
